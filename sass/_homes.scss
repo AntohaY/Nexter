@@ -16,8 +16,8 @@
 
     &__img {
         width: 100%;
-        grid-column: 1 / -1;
         grid-row: 1 / 2;
+        grid-column: 1 / -1;
         z-index: 1;
     }
 
@@ -33,18 +33,19 @@
     }
 
     &__name {
-        grid-column: 1 / -1;
         grid-row: 1 / 2;
-        z-index: 3;
+        grid-column: 1 / -1;
         justify-self: center;
         align-self: end;
+        z-index: 3;
+
         width: 80%;
         font-family: $font-display;
-        color: #fff;
         font-size: 1.6rem;
         text-align: center;
         padding: 1.25rem;
         background-color: $color-secondary;
+        color: #fff;
         font-weight: 400;
         transform: translateY(50%);
     }
@@ -58,8 +59,10 @@
     &__rooms,
     &__area,
     &__price {
+
         font-size: 1.5rem;
         margin-left: 2rem;
+
         display: flex;
         align-items: center;
 
